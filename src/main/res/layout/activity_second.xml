@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <!-- Display Username -->
+    <TextView
+        android:id="@+id/tvuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User: "
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btngrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHECK"
+        android:backgroundTint="#00FFFF"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:padding="12dp">
+    </Button>
+
+    <!-- Input Marks -->
+    <EditText
+        android:id="@+id/txtmarkah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insert your mark"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="20dp">
+    </EditText>
+
+    <!-- Dsiplay Grade -->
+    <TextView
+        android:id="@+id/tvgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade: "
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000">
+
+    </TextView>
+
+</LinearLayout>
